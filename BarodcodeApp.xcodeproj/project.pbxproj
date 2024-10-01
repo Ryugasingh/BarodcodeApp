@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		355C8AF32CABF83E00139DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355C8ADA2CABF83C00139DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355C8AE12CABF83C00139DC5;
+			remoteInfo = BarodcodeApp;
+		};
+		355C8AFD2CABF83E00139DC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 355C8ADA2CABF83C00139DC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 355C8AE12CABF83C00139DC5;
+			remoteInfo = BarodcodeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355C8AE22CABF83C00139DC5 /* BarodcodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarodcodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		355C8AF22CABF83E00139DC5 /* BarodcodeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarodcodeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		355C8AFC2CABF83E00139DC5 /* BarodcodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarodcodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		355C8AE42CABF83C00139DC5 /* BarodcodeApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarodcodeApp;
+			sourceTree = "<group>";
+		};
+		355C8AF52CABF83E00139DC5 /* BarodcodeAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarodcodeAppTests;
+			sourceTree = "<group>";
+		};
+		355C8AFF2CABF83E00139DC5 /* BarodcodeAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BarodcodeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		355C8ADF2CABF83C00139DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AEF2CABF83E00139DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AF92CABF83E00139DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		355C8AD92CABF83C00139DC5 = {
+			isa = PBXGroup;
+			children = (
+				355C8AE42CABF83C00139DC5 /* BarodcodeApp */,
+				355C8AF52CABF83E00139DC5 /* BarodcodeAppTests */,
+				355C8AFF2CABF83E00139DC5 /* BarodcodeAppUITests */,
+				355C8AE32CABF83C00139DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		355C8AE32CABF83C00139DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				355C8AE22CABF83C00139DC5 /* BarodcodeApp.app */,
+				355C8AF22CABF83E00139DC5 /* BarodcodeAppTests.xctest */,
+				355C8AFC2CABF83E00139DC5 /* BarodcodeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		355C8AE12CABF83C00139DC5 /* BarodcodeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355C8B062CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeApp" */;
+			buildPhases = (
+				355C8ADE2CABF83C00139DC5 /* Sources */,
+				355C8ADF2CABF83C00139DC5 /* Frameworks */,
+				355C8AE02CABF83C00139DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				355C8AE42CABF83C00139DC5 /* BarodcodeApp */,
+			);
+			name = BarodcodeApp;
+			packageProductDependencies = (
+			);
+			productName = BarodcodeApp;
+			productReference = 355C8AE22CABF83C00139DC5 /* BarodcodeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		355C8AF12CABF83E00139DC5 /* BarodcodeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355C8B092CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeAppTests" */;
+			buildPhases = (
+				355C8AEE2CABF83E00139DC5 /* Sources */,
+				355C8AEF2CABF83E00139DC5 /* Frameworks */,
+				355C8AF02CABF83E00139DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355C8AF42CABF83E00139DC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				355C8AF52CABF83E00139DC5 /* BarodcodeAppTests */,
+			);
+			name = BarodcodeAppTests;
+			packageProductDependencies = (
+			);
+			productName = BarodcodeAppTests;
+			productReference = 355C8AF22CABF83E00139DC5 /* BarodcodeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		355C8AFB2CABF83E00139DC5 /* BarodcodeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 355C8B0C2CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeAppUITests" */;
+			buildPhases = (
+				355C8AF82CABF83E00139DC5 /* Sources */,
+				355C8AF92CABF83E00139DC5 /* Frameworks */,
+				355C8AFA2CABF83E00139DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355C8AFE2CABF83E00139DC5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				355C8AFF2CABF83E00139DC5 /* BarodcodeAppUITests */,
+			);
+			name = BarodcodeAppUITests;
+			packageProductDependencies = (
+			);
+			productName = BarodcodeAppUITests;
+			productReference = 355C8AFC2CABF83E00139DC5 /* BarodcodeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		355C8ADA2CABF83C00139DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					355C8AE12CABF83C00139DC5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					355C8AF12CABF83E00139DC5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 355C8AE12CABF83C00139DC5;
+					};
+					355C8AFB2CABF83E00139DC5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 355C8AE12CABF83C00139DC5;
+					};
+				};
+			};
+			buildConfigurationList = 355C8ADD2CABF83C00139DC5 /* Build configuration list for PBXProject "BarodcodeApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 355C8AD92CABF83C00139DC5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 355C8AE32CABF83C00139DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				355C8AE12CABF83C00139DC5 /* BarodcodeApp */,
+				355C8AF12CABF83E00139DC5 /* BarodcodeAppTests */,
+				355C8AFB2CABF83E00139DC5 /* BarodcodeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		355C8AE02CABF83C00139DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AF02CABF83E00139DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AFA2CABF83E00139DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		355C8ADE2CABF83C00139DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AEE2CABF83E00139DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355C8AF82CABF83E00139DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		355C8AF42CABF83E00139DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355C8AE12CABF83C00139DC5 /* BarodcodeApp */;
+			targetProxy = 355C8AF32CABF83E00139DC5 /* PBXContainerItemProxy */;
+		};
+		355C8AFE2CABF83E00139DC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 355C8AE12CABF83C00139DC5 /* BarodcodeApp */;
+			targetProxy = 355C8AFD2CABF83E00139DC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		355C8B042CABF83E00139DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		355C8B052CABF83E00139DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		355C8B072CABF83E00139DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarodcodeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		355C8B082CABF83E00139DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BarodcodeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		355C8B0A2CABF83E00139DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarodcodeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarodcodeApp";
+			};
+			name = Debug;
+		};
+		355C8B0B2CABF83E00139DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarodcodeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BarodcodeApp";
+			};
+			name = Release;
+		};
+		355C8B0D2CABF83E00139DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarodcodeApp;
+			};
+			name = Debug;
+		};
+		355C8B0E2CABF83E00139DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KRQN7Q75LR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = practice.BarodcodeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BarodcodeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		355C8ADD2CABF83C00139DC5 /* Build configuration list for PBXProject "BarodcodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355C8B042CABF83E00139DC5 /* Debug */,
+				355C8B052CABF83E00139DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355C8B062CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355C8B072CABF83E00139DC5 /* Debug */,
+				355C8B082CABF83E00139DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355C8B092CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355C8B0A2CABF83E00139DC5 /* Debug */,
+				355C8B0B2CABF83E00139DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		355C8B0C2CABF83E00139DC5 /* Build configuration list for PBXNativeTarget "BarodcodeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				355C8B0D2CABF83E00139DC5 /* Debug */,
+				355C8B0E2CABF83E00139DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 355C8ADA2CABF83C00139DC5 /* Project object */;
+}
